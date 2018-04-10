@@ -3,9 +3,7 @@
   <residentTxd>vehshare</residentTxd>
   <residentAnims />
   <InitDatas>
-
     <!-- Seat Ibiza Cupra -->
-    
     <Item>
       <modelName>ibiza</modelName>
       <txdName>ibiza</txdName>
@@ -16,8 +14,7 @@
       <expressionName>null</expressionName>
       <animConvRoofDictName>null</animConvRoofDictName>
       <animConvRoofName>null</animConvRoofName>
-      <animConvRoofWindowsAffected>
-      </animConvRoofWindowsAffected>
+      <animConvRoofWindowsAffected></animConvRoofWindowsAffected>
       <ptfxAssetName>null</ptfxAssetName>
       <audioNameHash>RHAPSODY</audioNameHash>
       <layout>LAYOUT_STANDARD</layout>
@@ -30,14 +27,14 @@
       <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.030000" z="-0.030000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="-0.025000" z="0.000000" />
-	    <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.060000" z="-0.055000" />
-	    <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="-0.060000" z="-0.055000" />
-	    <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	    <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	    <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	    <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.050000" z="0.000000" />
-	    <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	    <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.060000" z="-0.055000" />
+      <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="-0.060000" z="-0.055000" />
+      <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="-0.050000" z="0.000000" />
+      <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
+      <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
       <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="-0.045000" z="0.000000" />
       <FirstPersonMobilePhoneOffset x="0.118000" y="0.235000" z="0.553000" />
       <FirstPersonPassengerMobilePhoneOffset x="0.135000" y="0.215000" z="0.455000" />
@@ -69,10 +66,7 @@
       <lodDistances content="float_array">
         15.000000
         30.000000
-        60.000000	
-        120.000000	
-        500.000000	
-        500.000000
+        60.000000	        120.000000	        500.000000	        500.000000
       </lodDistances>
       <minSeatHeight value="0.858" />
       <identicalModelSpawnDistance value="20" />
@@ -88,7 +82,7 @@
       <flags>FLAG_SPAWN_ON_TRAILER FLAG_SPORTS FLAG_HAS_INTERIOR_EXTRAS</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
-	    <dashboardType>VDT_TAILGATER</dashboardType>
+      <dashboardType>VDT_TAILGATER</dashboardType>
       <vehicleClass>VC_SPORT</vehicleClass>
       <wheelType>VWT_SPORT</wheelType>
       <trailers />
@@ -111,14 +105,12 @@
       <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
-	    <firstPersonDrivebyData>
+      <firstPersonDrivebyData>
         <Item>STD_ISSI2_FRONT_LEFT</Item>
         <Item>STD_ISSI_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
-
     <!-- Peugeot 508 GT 2018 -->
-
     <Item>
       <modelName>508g19</modelName>
       <txdName>508g19</txdName>
@@ -223,30 +215,22 @@
       <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
-	    <firstPersonDrivebyData>
+      <firstPersonDrivebyData>
         <Item>STD_DOMINATOR_FRONT_LEFT</Item>
         <Item>STD_DOMINATOR_FRONT_RIGHT</Item>
       </firstPersonDrivebyData>
     </Item>
-
   </InitDatas>
-
   <txdRelationships>
-
     <!-- Seat Ibiza Cupra -->
-
     <Item>
       <parent>vehicles_schaf_interior</parent>
       <child>ibiza</child>
     </Item>
-
     <!-- Peugeot 508 GT 2018 -->
-
     <Item>
       <parent>vehicles_dom_interior</parent>
       <child>mcvors</child>
     </Item>
-
   </txdRelationships>
-
 </CVehicleModelInfo__InitDataList>

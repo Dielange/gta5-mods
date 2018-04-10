@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <CHandlingDataMgr>
-
   <HandlingData>
-
     <!-- Seat Ibiza Cupra -->
-
     <Item type="CHandlingData">
       <handlingName>IBIZA</handlingName>
       <fMass value="1200.000000" />
@@ -67,9 +63,7 @@
         <Item type="NULL" />
       </SubHandlingData>
     </Item>
-
     <!-- Peugeot 508 GT 2018 -->
-
     <Item type="CHandlingData">
       <handlingName>508G19</handlingName>
       <fMass value="2000.000000" />
@@ -131,7 +125,5 @@
         <Item type="NULL" />
       </SubHandlingData>
     </Item>
-
   </HandlingData>
-
 </CHandlingDataMgr>

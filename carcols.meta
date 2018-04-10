@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CVehicleModelInfoVarGlobal>    
+<CVehicleModelInfoVarGlobal>
   <Kits>
-
     <!-- Seat Ibiza Cupra -->
-
     <Item>
       <kitName>760_ibiza_modkit</kitName>
       <id value="760"/>
       <kitType>MKT_SPECIAL</kitType>
       <visibleMods>
-		  <Item>
+        <Item>
           <modelName>ibiza_eksoz</modelName>
           <modShopLabel/>
           <linkedModels/>
@@ -39,7 +37,7 @@
           <disableBonnetCamera value="false"/>
           <allowBonnetSlide value="true"/>
         </Item>
-		  <Item>
+        <Item>
           <modelName>ibiza_plk2</modelName>
           <modShopLabel/>
           <linkedModels/>
@@ -54,7 +52,7 @@
           <disableBonnetCamera value="false"/>
           <allowBonnetSlide value="true"/>
         </Item>
-	    <Item>
+        <Item>
           <modelName>ibiza_plk3</modelName>
           <modShopLabel/>
           <linkedModels/>
@@ -69,7 +67,7 @@
           <disableBonnetCamera value="false"/>
           <allowBonnetSlide value="true"/>
         </Item>
-		  <Item>
+        <Item>
           <modelName>ibiza_plk4</modelName>
           <modShopLabel/>
           <linkedModels/>
@@ -88,8 +86,7 @@
           <modelName>ibiza_spo</modelName>
           <modShopLabel>MNU_BUMF1</modShopLabel>
           <linkedModels/>
-          <turnOffBones>
-          </turnOffBones>
+          <turnOffBones></turnOffBones>
           <type>VMT_SPOILER</type>
           <bone>boot</bone>
           <collisionBone>chassis</collisionBone>
@@ -104,8 +101,7 @@
           <modelName>ibiza_spo3</modelName>
           <modShopLabel>MNU_BUMF1</modShopLabel>
           <linkedModels/>
-          <turnOffBones>
-          </turnOffBones>
+          <turnOffBones></turnOffBones>
           <type>VMT_SPOILER</type>
           <bone>boot</bone>
           <collisionBone>chassis</collisionBone>
@@ -135,8 +131,7 @@
           <modelName>ibiza_ont_1</modelName>
           <modShopLabel>MNU_BUMF1</modShopLabel>
           <linkedModels/>
-          <turnOffBones>
-          </turnOffBones>
+          <turnOffBones></turnOffBones>
           <type>VMT_BUMPER_F</type>
           <bone>bumper_f</bone>
           <collisionBone>chassis</collisionBone>
@@ -147,7 +142,7 @@
           <disableBonnetCamera value="false"/>
           <allowBonnetSlide value="true"/>
         </Item>
-		  <Item>
+        <Item>
           <modelName>ibiza_ont_2</modelName>
           <modShopLabel>MNU_BUMF2</modShopLabel>
           <linkedModels/>
@@ -685,15 +680,12 @@
       <slotNames/>
       <liveryNames/>
     </Item>
- 
-     <!-- Peugeot 508 GT 2018 -->
- 
-<Item>
+    <!-- Peugeot 508 GT 2018 -->
+    <Item>
       <kitName>135_508g19_modkit</kitName>
-      <id value="135" />	 	  
+      <id value="135" />
       <kitType>MKT_SPECIAL</kitType>
-      <visibleMods>
-      </visibleMods>
+      <visibleMods></visibleMods>
       <linkMods />
       <statMods>
         <Item>
@@ -857,7 +849,7 @@
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>HORN_SAD_TROMBONE</identifier>
           <modifier value="632950117" />
           <audioApply value="1.000000" />
@@ -905,70 +897,70 @@
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>MUSICAL_HORN_BUSINESS_7</identifier>
           <modifier value="3203290992" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_C0</identifier>
           <modifier value="771284519" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_D0</identifier>
           <modifier value="2586621229" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_E0</identifier>
           <modifier value="283386134" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_F0</identifier>
           <modifier value="3884502400" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_G0</identifier>
           <modifier value="265723083" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_A0</identifier>
           <modifier value="1746883687" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_B0</identifier>
           <modifier value="1919870950" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
-		<Item>
+        </Item>
+        <Item>
           <identifier>DLC_BUSI2_C_MAJOR_NOTES_C1</identifier>
           <modifier value="1085277077" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
-		</Item>
+        </Item>
         <Item>
           <identifier>HIPSTER_HORN_1</identifier>
           <modifier value="444549672" />
@@ -1025,112 +1017,112 @@
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>LUXE_HORN_1</identifier>
           <modifier value="3199657341" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>LUXE_HORN_2</identifier>
           <modifier value="2900378064" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>LUXE_HORN_3</identifier>
           <modifier value="3956195248" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>LUXORY_HORN_1</identifier>
           <modifier value="676333254" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>LUXURY_HORN_2</identifier>
           <modifier value="2099578296" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>LUXURY_HORN_3</identifier>
           <modifier value="1373384483" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>ORGAN_HORN_LOOP_01</identifier>
           <modifier value="2916775806" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>ORGAN_HORN_LOOP_01_PREVIEW</identifier>
           <modifier value="3714706952" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>ORGAN_HORN_LOOP_02</identifier>
           <modifier value="2611860261" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>ORGAN_HORN_LOOP_02_PREVIEW</identifier>
           <modifier value="3206770359" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>LOWRIDER_HORN_1</identifier>
           <modifier value="310529291" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>LOWRIDER_HORN_1_PREVIEW</identifier>
           <modifier value="2965568987" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<Item>
+        <Item>
           <identifier>LOWRIDER_HORN_2</identifier>
           <modifier value="55291550" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-		<!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
-		<Item>
+        <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+        <Item>
           <identifier>LOWRIDER_HORN_2_PREVIEW</identifier>
           <modifier value="965054819" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_HORN</type>
         </Item>
-	  <Item>
+        <Item>
           <identifier />
           <modifier value="6" />
           <audioApply value="1.000000" />
@@ -1160,16 +1152,12 @@
         </Item>
       </statMods>
       <slotNames />
-      <liveryNames>
-      </liveryNames>
+      <liveryNames></liveryNames>
     </Item>
-
   </Kits>
   <Lights>
-
     <!-- Seat Ibiza Cupra-->
-
-	  <Item>
+    <Item>
       <id value="124"/>
       <indicator>
         <intensity value="0.37500000"/>
@@ -1307,11 +1295,9 @@
       </reversingLightCorona>
       <name>ibiza</name>
     </Item>
-
     <!-- Peugeot 508 GT 2018 -->
-
     <Item>
-      <id value="900" />	
+      <id value="900" />
       <indicator>
         <intensity value="0.375000" />
         <falloffMax value="2.500000" />
@@ -1442,6 +1428,5 @@
       </reversingLightCorona>
       <name>508g19</name>
     </Item>
-
   </Lights>
 </CVehicleModelInfoVarGlobal>
